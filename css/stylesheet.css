@@ -52,42 +52,38 @@ a {
 .CDK {
     display: flex;
     flex-wrap: wrap;
-    width:50%;
+    width:100%;
     margin-top:150px;
     justify-content:center;
-    justify-content: space-around;
+    justify-content: space-between;
     justify-content: space-evenly;
 
 }
 .CDKcontent {
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     margin-left:10px;
     justify-content:center;
     padding-top: 60px;
+    align-self: center;
 
 }
 
 .CDKmobilePrototype {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
+    width:15%;
     align-self: center;
-    width: 15%;
-    margin: 20px 25px 5px 25px;
-    justify-content:center;
-    align-content: flex-start; 
-
-   
+    padding-top: 60px;
 }
 
 .CDKmacbookPrototype {
     display: flex;
-    flex-flow: column wrap;
-    align-self:center;
-    width: 35%;
-    height: 20%;
-    justify-content:center;
-    align-content: flex-end;
+    flex-flow: column;
+    width: 30%;
+    align-self: center;
+    padding-top: 60px;
+
    
 }
 
